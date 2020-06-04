@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Contact</title>
+</head>
+
+<body>
+  <h3>Khun William</h3>
+  <ul>
+    <li>Street: No. 15, U San Nyein STreet</li>
+    <li>Township: San Chaung Township</li>
+    <li>City: Yangon</li>
+    <li>Country: Myanmar</li>
+  </ul>
+  <label for="choose-course">Choose your course.</label>
+  <select id="choose-course">
+    <optgroup label="Adobe CC 2020">
+      <option value="">Photoshop</option>
+      <option value="">Dreamweaver</option>
+      <option value="">Illustrator</option>
+    </optgroup>
+    <optgroup label="Autodesk 2020">
+      <option value="">Autodesk AutoCAD 2020</option>
+      <option value="">Autodesk Revit 2020</option>
+      <option value="">Autodesk Inventor 2020</option>
+    </optgroup>
+  </select>
+  <div>
+    <label for="salary-scale">Salary Range (B2-C1)</label>
+    <select id="salary-scale">
+      <optgroup label="salary-scale B2 - B3">
+        <option value="">1,000,000 MMK - 1,500,000 MMK</option>
+        <option value="">1,500,000 MMK - 2,000,000 MMK</option>
+        <option value="">2,000,000 MMK - 3,000,000 MMK</option>
+      </optgroup>
+      <optgroup label="salary-scale B3 - C1">
+        <option value="">3,000,000 MMK - 4,000,000 MMK</option>
+        <option value="">4,000,000 MMK - 5,000,000 MMK</option>
+        <option value="">5,000,000 MMK - 6,000,000 MMK</option>
+      </optgroup>
+    </select>
+  </div>
+  <div class="progress">
+    <label for="file">File Progress</label>
+    <progress id="file" max="100" value="75">75%</progress>
+  </div>
+  <div class="bank-account">
+    <label for="pin-number">Your Pin Number</label>
+    <input type="number" name="number" id="number" minlength="4" maxlength="10">
+  </div>
+  <div>
+    <label for="date">Start Date</label>
+    <input type="date" id="start" name="trip-start" value="01/06/2020" min="01/05/2020" max="01/01/2100">
+  </div>
+  <div>
+    <label for="date">End Date</label>
+    <input type="date" id="End" name="trip-end" value="01/06/2020" min="01/05/2020" max="01/01/2100">
+  </div>
+</body>
+
+</html>
